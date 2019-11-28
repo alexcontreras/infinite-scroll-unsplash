@@ -5,8 +5,7 @@ const toJson = require("unsplash-js").toJson;
 const express = require("express");
 
 const unsplash = new Unsplash({
-  applicationId: config.get("APPLICATION_ID"),
-  secret: config.get("SECRET"),
+  accessKey: config.get("APPLICATION_ACCESS_KEY"),
   callbackUrl: config.get("CALLBACK_URL")
 });
 

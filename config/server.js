@@ -1,6 +1,6 @@
 module.exports = {
-  APPLICATION_ID:
-    process.env.APPLICATION_ID ||
+  APPLICATION_ACCESS_KEY:
+    process.env.APPLICATION_KEY ||
     "3d2d42af71f2ab5c43cf557649030e29f9a7711c2d7984a0e99e88f05204d48e",
   SECRET:
     process.env.SECRET ||
